@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HARRY-LAPTOP</Machine>
+    <WindowsUser>Harry</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>0D3E2E17AF22CFD7E3B2B2B83002ED41E504B9CB477D8779E85A91F859BF4B6F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f00f66cd-0c8e-4f19-8b7d-824b1eca2c04_1.0.0.0_neutral__j7twsy7ktph3j</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f00f66cd-0c8e-4f19-8b7d-824b1eca2c04_j7twsy7ktph3j!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f00f66cd-0c8e-4f19-8b7d-824b1eca2c04</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Harry</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-06T14:33:44.996</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\bin\Debug\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2013-02-06T14:33:43.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\bin\Debug\App1.pdb">
+      <PackagePath>App1.pdb</PackagePath>
+      <Modified>2013-02-06T14:33:43.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-02-06T14:32:20.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T14:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-02-06T14:32:20.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\Dropbox\University Of Derby\Year 2\Semester 3\Graphics I\Assignment\Part 1\App1\App1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-02-06T14:33:44.101</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
