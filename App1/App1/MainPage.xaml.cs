@@ -40,4 +40,4 @@ namespace App1
 
 // this comment is added by Ch. Aristomenopoulos
 
-// kai kala egrapsa kodika tora ego... by mpampis
+//Paizei na mai kai poly trelos by G. Rovolis
