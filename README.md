@@ -1,6 +1,3 @@
-TeamProject
-===========
+Team Project - Zeus
 
-Team Project in Computer Science, Year 2, Semester 2
-
-edited by mpampis
+Drunk with Darts
