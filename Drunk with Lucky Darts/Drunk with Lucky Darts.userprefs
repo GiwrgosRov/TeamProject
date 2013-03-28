@@ -1,9 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Show Scores.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Hit The Target.js">
     <Files>
-      <File FileName="Assets\Scripts\Hit The Target.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Hit The Target.js" Line="29" Column="2" />
       <File FileName="Assets\Scripts\Show Scores.js" Line="1" Column="1" />
+      <File FileName="Assets\Main Menu\Scripts\Play Game.js" Line="1" Column="1" />
+      <File FileName="Assets\Dart\Throw A Lucky Dart.js" Line="32" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

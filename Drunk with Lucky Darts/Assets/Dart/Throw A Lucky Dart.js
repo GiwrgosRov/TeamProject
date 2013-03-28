@@ -9,7 +9,7 @@ var arrayA = new Array();
 var arrayB = new Array();
 
 function OnGUI () {
-
+		
 	if (GUI.Button (Rect (50, 500, 200, 20), "Try your Lucky dart!")) {
 
 		counter++;
@@ -25,8 +25,11 @@ function OnGUI () {
 		var randomnumber: int = Random.Range(1, 5);
 		
 		if (randomnumber == 1) {
-		
-			dart.MovePosition(Vector3(0.7836357, 13.0961, 2.799733)); // Hit to target
+			
+			var rangex: double = Random.Range(0.6716456, 0.8471002);
+			var rangey: double = Random.Range(12.95, 13.20 );
+
+			dart.MovePosition(Vector3(rangex, rangey, 2.799733)); // Hit to target
 			
 			ReadFile(filePath);
 			SortScores(counter);
@@ -37,7 +40,15 @@ function OnGUI () {
 		} 
 		else {
 		
-			dart.MovePosition(Vector3(Random.Range(-0.2184523, 1.710871), Random.Range(12.05341 , 13.85781), 2.799733));
+			do { 
+			
+				var randx2: double = Random.Range(-0.2184523, 1.710871);
+				var randy2: double = Random.Range(12.05341 , 13.85781);
+				
+			}
+			while (((randx2 >= 0.6716456) && (randx2 <= 0.8471002)) && ((randy2 >= 12.95) && (randy2 <= 13.20)));
+		
+			dart.MovePosition(Vector3(randx2, randy2, 2.799733));
 		
 		}
 		

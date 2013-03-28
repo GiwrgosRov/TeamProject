@@ -45,12 +45,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Dart\Throw A Lucky Dart.js" />
-     <Compile Include="Assets\Dart\Throw Dart (back-up).js" />
      <Compile Include="Assets\Main Menu\Scripts\Exit.js" />
      <Compile Include="Assets\Main Menu\Scripts\Play Game.js" />
      <Compile Include="Assets\Main Menu\Scripts\Scores.js" />
+     <Compile Include="Assets\Scripts\BackButton.js" />
      <Compile Include="Assets\Scripts\Hit The Target.js" />
      <Compile Include="Assets\Scripts\Show Scores.js" />
+     <Compile Include="Assets\Scripts\Throw Dart.js" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
