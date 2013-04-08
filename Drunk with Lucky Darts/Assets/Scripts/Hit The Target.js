@@ -24,6 +24,6 @@ function LoadScores() {
 
 	yield WaitForSeconds(2);
 	
-	Application.LoadLevel("Scores");
+	Application.LoadLevel("Scores (post-game)");
 
 }

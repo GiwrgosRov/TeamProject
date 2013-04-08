@@ -2,7 +2,6 @@
 
 import System.IO;
 
-var filePath = "scores.txt";
 var values = new Array();
 var text1 : GUIText;
 var text2 : GUIText;
@@ -12,6 +11,7 @@ var text5 : GUIText;
 
 function Start () {
 
+	var filePath = Application.dataPath + "/scores.txt";
 	ReadFile(filePath);
 	
 	text1.text = values[0];
