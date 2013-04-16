@@ -37,13 +37,15 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Dart\Throw A Lucky Dart.js" />
+     <Compile Include="Assets\Dart\Throw Dart (back-up).js" />
      <Compile Include="Assets\Main Menu\Scripts\Exit.js" />
      <Compile Include="Assets\Main Menu\Scripts\Play Game.js" />
      <Compile Include="Assets\Main Menu\Scripts\Scores.js" />
