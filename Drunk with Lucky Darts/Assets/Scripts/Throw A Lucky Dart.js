@@ -12,21 +12,20 @@ var myDart : Transform;
 var screenPoint : Vector3;
 var transformed : Vector3;
 var myLabel : GUIText;
+var btnTexture : Texture;
 
-function OnGUI () {
+function OnGUI() {
 
-	filePath = Application.dataPath + "/scores.txt";
-	
-	//if (GUI.Button (Rect (50, 250, 200, 20), "Try your Lucky? Dart!")) {   //for testing reasons only (inside Unity)
-	if (GUI.Button (Rect (25, 650, 200, 20), "Try your Lucky? Dart!")) {
-		
+    if (GUI.Button(Rect(5, 630, 150, 150), btnTexture, "label")) {
+        
+        Debug.Log("Clicked the GUI button.");
+    
+	    filePath = Application.dataPath + "/scores.txt";
+			
 		counter++;
 		
 		// desides whether the dart that will be thrown will be a lucky one or not
 		var randnum: int = Random.Range(1, 3);
-		
-		// for testing reasons
-		//randnum = 2;
 		
 		// if it is a lucky one
 		if (randnum == 1) {
@@ -76,36 +75,30 @@ function OnGUI () {
 			myLabel.text = "Unlucky";
 		
 		}
-	
+		
 	}
-	
-	if (GUI.Button (Rect (1245, 1, 35, 22), "Exit")) {
-	
-		Application.Quit();
-	
-	}
-	
+    
 }
 
 function Update() {
 
-	if (myBool) {
-	
-		if (Input.GetMouseButtonDown(0)) {
-			
-			GetDartReady();
+		if (myBool) {
 		
-			screenPoint = Camera.main.WorldToScreenPoint(myDart.position);
-			transformed = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
-			transformed.y = transformed.y + 2.5;
-			transform.position = Vector3(transformed.x, transformed.y, 2.799733);
+			if (Input.GetMouseButtonDown(0)) {
+				
+					GetDartReady();
+				
+					screenPoint = Camera.main.WorldToScreenPoint(myDart.position);
+					transformed = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
+					transformed.y = transformed.y + 2.5;
+					transform.position = Vector3(transformed.x, transformed.y, 2.799733);
+					
+					RestoreDart();
+					myBool = false;
+					
+				}
 			
-			RestoreDart();
-			myBool = false;
-		
 		}
-		
-	}
 
 }
 
@@ -189,3 +182,4 @@ function SortScores (counter : int) {
 	arrayB[4] = arrayA[3];
 
 }
+
